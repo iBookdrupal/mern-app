@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "RESTFUL API",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "iBook",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
