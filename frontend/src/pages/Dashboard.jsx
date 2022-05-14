@@ -28,7 +28,7 @@ function Dashboard() {
     dispatch(getGoals());
 
     return () => {
-      dispatch(reset());
+      //dispatch(reset());
     };
   }, [user, navigate, isError, message, dispatch]);
 
